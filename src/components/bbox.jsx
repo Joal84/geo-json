@@ -18,7 +18,7 @@ export default function Bbox({ fetchOSM, setCoord, setUrl, coord }) {
         <input
           type="text"
           name="min-longitude"
-          placeholder="Minimum Longitude"
+          placeholder="Min-Longitude"
           value={coord.minLongitude}
           onChange={(e) => setCoord({ ...coord, minLongitude: e.target.value })}
           className="input"
@@ -26,7 +26,7 @@ export default function Bbox({ fetchOSM, setCoord, setUrl, coord }) {
         <input
           type="text"
           name="min-latitude"
-          placeholder="Minimum Latitude"
+          placeholder="Min-Latitude"
           value={coord.minLatitude}
           onChange={(e) => setCoord({ ...coord, minLatitude: e.target.value })}
           className="input"
@@ -34,7 +34,7 @@ export default function Bbox({ fetchOSM, setCoord, setUrl, coord }) {
         <input
           type="text"
           name="max-longitude"
-          placeholder="Maximum Longitude"
+          placeholder="Max-Longitude"
           value={coord.maxLongitude}
           onChange={(e) => setCoord({ ...coord, maxLongitude: e.target.value })}
           className="input"
@@ -42,7 +42,7 @@ export default function Bbox({ fetchOSM, setCoord, setUrl, coord }) {
         <input
           type="text"
           name="max-latitude"
-          placeholder="Maximum Latitude"
+          placeholder="Max-Latitude"
           value={coord.maxLatitude}
           onChange={(e) => setCoord({ ...coord, maxLatitude: e.target.value })}
           className="input"
