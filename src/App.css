@@ -21,8 +21,8 @@
   height: 50px;
   font-size: 1.4rem;
   top: 52%;
-  right: 18%;
-  position: absolute;
+  right: -48%;
+  position: relative;
 }
 .input {
   font-size: 1rem;
