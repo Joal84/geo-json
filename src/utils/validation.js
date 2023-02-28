@@ -3,7 +3,6 @@ const regexLon = /^(-?(?:1[0-7]|[1-9])?\d(?:\.\d{1,18})?|180(?:\.0{1,18})?)$/;
 
 // checking format of input
 export const validation = (coords) => {
-  // Checking format
   const { minLatitude, minLongitude, maxLatitude, maxLongitude } = coords;
   let validminLat = regexLat.test(minLatitude);
   let validminLon = regexLon.test(minLongitude);
